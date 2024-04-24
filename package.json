@@ -1,0 +1,17 @@
+{
+  "name": "xfoneworkspaces",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start:app": "yarn workspace doveproject run start",
+    "start:callcenter": "yarn workspace callcenter run start",
+    "start:callcenterProd": "yarn workspace callcenter run start-prod",
+    "start:livestream": "yarn workspace livestreamworkspace run start"
+  }
+}
