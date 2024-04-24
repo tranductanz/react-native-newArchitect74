@@ -13,5 +13,9 @@
     "start:callcenter": "yarn workspace callcenter run start",
     "start:callcenterProd": "yarn workspace callcenter run start-prod",
     "start:livestream": "yarn workspace livestreamworkspace run start"
+  },
+  "resolutions": {
+    "react-native-gesture-handler": "2.9.0",
+    "react-native-reanimated": "3.6.2"
   }
 }
