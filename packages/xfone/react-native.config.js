@@ -1,3 +1,4 @@
 module.exports = {
-  commands: require('@callstack/repack/commands'),
+  commands: require('@callstack-mwg/repack/commands'),
+  assets: ['./app/assets/fonts/']
 };
